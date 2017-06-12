@@ -19,3 +19,9 @@ export function palindrome(str) {
   const reverseStr = lowRegStr.split('').reverse().join('');
   return reverseStr === lowRegStr; // "amanaplanacanalpanama" === "amanaplanacanalpanama"? => true
 }
+
+export function isEmpty(str) {
+  return str === null || str === undefined
+    ? true
+    : /^[\s\xa0]*$/.test(str);
+}
