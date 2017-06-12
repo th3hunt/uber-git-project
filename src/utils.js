@@ -4,3 +4,7 @@ export function reverse(sentence) {
   }
   return sentence.split(' ').reverse().join(' ');
 }
+
+export function capitalize(str) {
+  return str.replace(/\b\w/g, l => l.toUpperCase());
+}
