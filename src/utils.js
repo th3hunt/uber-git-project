@@ -25,3 +25,7 @@ export function isEmpty(str) {
     ? true
     : /^[\s\xa0]*$/.test(str);
 }
+
+export function isNumeric() {
+  return !/[^0-9]/.test(this.s);
+}
