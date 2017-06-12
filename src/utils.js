@@ -1,6 +1,6 @@
 export function reverse(sentence) {
   if (!sentence) {
-    throw new Error('reverse expects a sentence as string');
+    throw new Error('reverse DID not see that coming^^');
   }
   return sentence.split(' ').reverse().join(' ');
 }
