@@ -1,6 +1,10 @@
+/**
+ * Reverse words in the given sentence
+ * @param {*} sentence - the sentence to reverse
+ */
 export function reverse(sentence) {
   if (!sentence) {
-    throw new Error('reverse expects a sentence as string');
+    throw new Error'reverse expects a sentence as string');
   }
   return sentence.split(' ').reverse().join(' ');
 }
