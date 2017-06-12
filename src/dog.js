@@ -1,7 +1,7 @@
 export default class {
 
     bark() {
-        return 'wild bark';
+        return 'ROAR like bark';
     }
 
     stay({force = false}) {
