@@ -1,6 +1,6 @@
 const uberGit = {
-  greet() {
-    return 'hello';
+  greet(name) {
+    return `hello, ${name!}`;
   }
 };
 
