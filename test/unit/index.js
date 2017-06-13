@@ -12,7 +12,7 @@ describe('uberGit', () => {
     });
 
     it('should have always returned hello', () => {
-      expect(uberGit.greet).to.have.always.returned('hello');
+      expect(() => uberGit.greet('Mary')).to.have.always.returned('hello, Mary!');
     });
   });
 });
