@@ -6,6 +6,10 @@ const uberGit = {
 
   shout(words) {
     return `${words.toUpperCase()}!!!`;
+  },
+
+  whisper(words) {
+    return `${words.toLowerCase()}...`;
   }
 
 };
